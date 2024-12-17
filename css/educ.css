@@ -49,8 +49,25 @@ body{
 }
 
 .elem {
-    font-size: 25px;
-    margin-top: 60px;
-    margin-left: 190px;
+    font-size: 40px;
+    margin-top: 20px;
+    margin-left: 300px;
     width: 800px;
+}
+
+.date {
+    font-size: 20px;
+    margin-top: 15px;
+    margin-left: 350px;
+    width: 800px;
+}
+
+.picture{
+    margin-left: 200px;
+    margin-top: 15px;
+    width: 100px;
+}
+
+.picture-positioning{
+    display: inline-block;
 }
