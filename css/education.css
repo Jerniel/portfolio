@@ -1,0 +1,121 @@
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header Background */
+.header-background {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.logo img {
+    width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+/* Navigation Menu */
+.navigation {
+    margin-top: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+nav .tags {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+nav .tags:hover {
+    color: #f39c12;
+}
+
+/* Content Section */
+.content {
+    padding: 40px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.greet {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.greets, .greetings, .quotes {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.name {
+    color: #f39c12;
+}
+
+.picture-positioning {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.picture {
+    width: 900px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Intro Positioning */
+.intro-positioning {
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    margin-bottom: 60px;
+}
+
+.intro-positioning div {
+    max-width: 300px;
+}
+
+.intro-positioning p {
+    margin-bottom: 10px;
+}
+
+/* Footer or Author Section */
+.author {
+    margin-top: 20px;
+    font-size: 18px;
+    font-style: italic;
+}
+
+/* Quotes Section */
+.quotes {
+    font-size: 22px;
+    font-weight: bold;
+    color: #e74c3c;
+}
+
+/* Additional Styling */
+p {
+    font-size: 18px;
+    line-height: 1.6;
+}
